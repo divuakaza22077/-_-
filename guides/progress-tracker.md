@@ -13,6 +13,8 @@
 - [ ] Read the [module-project enforcement rule](../curriculum/README.md#module-projects) and accepted it
 - [ ] Read [Career Operations §7](career-operations.md#career-operations) and picked the timeline band whose **conditions** match my situation
 
+- [ ] (Undergraduates) Opened the [Four-Year Plan](four-year-plan.md#semester-plan) and copied the current semester's exit check here
+
 ### 🩺 Math-Foundations Diagnostic
 - [ ] Took the **15-question diagnostic** and recorded my score per strand
 - [ ] Decided whether to do **Module 0** (mandatory if any strand < 70%)

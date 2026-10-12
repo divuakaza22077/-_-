@@ -17,6 +17,7 @@
 | **I'm new. Help me start.** | [Start Here](START-HERE.md#first-step): choose an entry point and do one study session. |
 | **I know what I want to learn.** | [Curriculum index](curriculum/README.md#all-modules): jump directly to any of the 27 modules. |
 | **I'm returning to my studies.** | [Resume checklist](guides/progress-tracker.md#resume): reopen your module and find the next unfinished task. |
+| **I'm a CS undergrad with 4 years to a top-tier new-grad offer.** | [Four-Year Plan](guides/four-year-plan.md#four-year-plan): 8 semesters + 3 summers, module order, hiring-grade projects, DSA ladder, and a funded-opportunity calendar. |
 
 ## What this is (in 30 seconds)
 

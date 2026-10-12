@@ -8,6 +8,8 @@ The full curriculum is organised into **six strata**. Work through them in order
 
 > **New here?** Read [START-HERE](../START-HERE.md) and [How to read a module](../guides/how-to-read-a-module.md) first — the second page includes a **[Pick-One table](../guides/how-to-read-a-module.md#pick-one)** giving one default course per module, so you never have to choose between twelve links.
 >
+> **Undergraduate on a 4-year clock?** The [Four-Year Plan](../guides/four-year-plan.md#module-map) assigns every module below to a semester with a CORE / COMPRESS / COLLEGE / DEFER decision.
+>
 > **27 modules, but the numbers skip 19 and 20 — nothing is missing.** Old M19 (MLOps) grew into [M24](6-frontier-production.md#module-24) and old M20 (Capstone) became [M26](6-frontier-production.md#module-26). Those two numbers were left vacant so existing links to M0–M18 keep working. Same reason **M6½** exists and **M8** is split into **M8a/M8b**. Details in the [FAQ](../FAQ.md#structure).
 
 <div align="center">
