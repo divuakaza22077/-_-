@@ -47,6 +47,8 @@ Do not do the modules one after another and leave interview prep to the end. Eve
 | **C. Flagship project** | One hiring-grade project per term | **20–25%** (4–6 h) | The resume line and the interview stories |
 | **D. Career ops** | Open source, applications, contests, writing | **10%** (2–3 h) | The funnel you enter offers through |
 
+**Exception, your first five weeks:** the four tracks start gradually. Weeks 0–4 are Python only ([Week 0](week-0.md#week-0), then the [first 30 days](first-30-days.md#first-30-days)). Track A begins in week 5, and tracks C and D grow from there.
+
 **Summers change the mix:** 35–40 h/week, split 15% A, 25% B, 50% C/internship, 10% D. If you have an internship, it *is* tracks C and D. Keep track A at 5 h/week minimum regardless.
 
 **Exam weeks:** drop B and C to zero. Keep A at 3 h/week (one contest plus 5 problems). Never drop A to zero for more than one week.
@@ -60,10 +62,11 @@ Each module gets one decision: **CORE** (full depth, project mandatory), **COMPR
 
 | Module | Decision | Semester | What to keep | What to skip for now |
 |---|---|---|---|---|
-| **Math diagnostic** | Do it | S1, week 1 | All 15 questions | — |
-| **M0a** Pre-calculus | Only if diagnostic < 70% | S1 | Functions, exponentials/logs, trig identities | Everything else |
-| **M0b** Logic & proof | COMPRESS | S1–S2 | Induction, contradiction, sets, quantifiers. Needed for M4 correctness proofs | Lean 4, full Velleman |
-| **M1** Python | **CORE** | **S1** | CS50P in full, OOP, testing, files, APIs | — |
+| **Week 0** (Scrimba) | Do it | S1, week 0 | [Week 0](week-0.md#week-0): 7 days, Scrimba *Learn Python* only | Everything else in this table |
+| **Math placement** | Do it once, **non-gating** | S1, week 2 | Khan Academy Precalculus course challenge ([placement guide](../curriculum/1-foundations.md#math-diagnostic)). Results pick resources; they never block M1 | Any timed or multi-part diagnostic |
+| **M0a** Pre-calculus | Only the topics your placement flags | S1–S2 | Functions, exponentials/logs, trig identities | Everything else |
+| **M0b** Logic & proof | COMPRESS · 15 min/day | S1–S2 | *Book of Proof* ch. 1–4 alongside college maths. Induction and contradiction are needed for M4 correctness proofs | Lean 4, full Velleman, a fixed exercise quota |
+| **M1** Python | **CORE** | **S1** | [First 30 days](first-30-days.md#first-30-days), then CS50P in full: OOP, testing, files, APIs | — |
 | **M2** Calculus + optimisation | COLLEGE + COMPRESS | S2–Summer 1 | Derivatives, chain rule, gradients, Jacobians, **matrix calculus**, gradient descent, convexity intuition | Boyd EE364A in full (DEFER) |
 | **M3** Linear algebra | COLLEGE + COMPRESS | S2–Summer 1 | MIT 18.06 lectures 1–25 + 3Blue1Brown; eigen/SVD; least squares | Axler abstract track, Trefethen–Bau (DEFER) |
 | **M4** Algorithms & DSA | **CORE** | **S2–S3** | Full MIT 6.006 plus the [DSA ladder](#dsa-ladder) | Randomised/streaming extras until S6 |
@@ -112,11 +115,13 @@ Each block has the same five fields: **Modules** (track B), **DSA** (track A, cu
 
 <a id="s1"></a>
 #### S1 · Oct–Dec 2026 (the rest of semester 1)
-- **Modules:** Math diagnostic (week 1) → **M1** (CS50P, all problem sets) → *The Missing Semester* (shell, Git, editor) → M0b (induction and proofs only) alongside your college maths.
-- **DSA:** **30** easy problems in Python (arrays, strings, hash maps). No timing yet. The goal is fluency in Python itself.
-- **Flagship:** **P0, M1 weather CLI** ([spec](../curriculum/1-foundations.md#module-1), keep as-is). First public repo with tests + README.
-- **Opportunities:** create your GitHub, LinkedIn and Codeforces accounts. Read the contributing guide of 2 open-source projects you use.
-- **Exit check:** CS50P finished · P0 public with green tests · 30 problems · college CGPA ≥ 8.5 target.
+- **Start here:** [Week 0](week-0.md#week-0) (Scrimba only, 7 days), then the [first 30 days](first-30-days.md#first-30-days). Nothing else in this block starts before its week below.
+- **Modules:** Week 0 Scrimba → **Weeks 1–10: M1** (CS50P, all problem sets) → *The Missing Semester* (shell, Git, editor) after CS50P → M0b (*Book of Proof* ch. 1–4, 15 min/day) alongside your college maths.
+- **Math placement (week 2, non-gating):** take the Khan Academy Precalculus course challenge once. Your score routes you to resources in the [placement guide](../curriculum/1-foundations.md#math-diagnostic). It never delays M1.
+- **DSA (from week 5, after CS50P Lecture 3):** **30** easy problems in Python (arrays, strings, hash maps). No timing yet. The goal is fluency in Python itself.
+- **Projects:** week 4: [M1 starter project](../curriculum/1-foundations.md#m1-starter-project) (calculator or guessing game). End of term: **P0, M1 weather CLI** capstone ([spec](../curriculum/1-foundations.md#m1-capstone)). First public repo with tests + README.
+- **Opportunities:** GitHub account in week 1 (CS50P needs it). LinkedIn and Codeforces/LeetCode accounts in **week 4**. Read the contributing guide of 2 open-source projects you use, after CS50P.
+- **Exit check:** **Week 0 done** · CS50P finished · P0 public with green tests · 30 problems · college CGPA ≥ 8.5 target.
 
 <a id="s2"></a>
 #### S2 · Jan–May 2027
@@ -218,7 +223,7 @@ Each block has the same five fields: **Modules** (track B), **DSA** (track A, cu
 
 | # | Term | Project | Replaces module projects | What a top-tier screener sees | Stack | Done means |
 |---|---|---|---|---|---|---|
-| **P0** | S1 | Weather CLI | M1 | Clean Python, tests, Git | Python, pytest, requests | [M1 definition of done](../curriculum/1-foundations.md#module-1) |
+| **P0** | S1 (end of term) | Weather CLI (M1 capstone, after the week-4 starter project) | M1 | Clean Python, tests, Git | Python, pytest, requests | [M1 definition of done](../curriculum/1-foundations.md#module-1) |
 | **P1** | S2 | **Data pipeline for a real stakeholder**: e.g., your college club's or a local NGO's records → PostgreSQL → SQL transforms → dashboard they actually use | M7 + M8a | SQL depth, data modelling, a real user | Python, pandas, PostgreSQL, dbt-core, Streamlit | Stakeholder uses it weekly; data-validation tests; written schema rationale |
 | **P2** | Summer 1 | **Full-stack product with real users**: one tool that solves a problem for your classmates (e.g., a timetable/notes/study-group app), with auth, a database and an API | (new: SWE signal) | You can build and ship software, not only notebooks | FastAPI, PostgreSQL, a simple frontend, Docker, GitHub Actions, a free-tier host | ≥ 20 users · CI green · uptime/error monitoring · p95 latency reported |
 | **P3** | S3 | **Deployed ML service**: a tabular prediction problem with a real dataset (e.g., public transport delays, crop prices, student-performance risk with consent), trained with boosting and served behind an API | M9, M10, M12 | ML fundamentals + production: calibration, thresholds, monitoring | scikit-learn, LightGBM, MLflow, FastAPI, Docker, Evidently | From-scratch baseline vs. boosted model compared · calibration plot · drift check · API latency |
@@ -238,7 +243,7 @@ Run it in Python first. **From S3, also solve in C++ or Java** if your target co
 
 | Phase | Terms | Cumulative solved | Topics | Weekly cadence | Codeforces target |
 |---|---|---|---|---|---|
-| 1. Fluency | S1 | 30 | Arrays, strings, hash maps, basic math | 3–4 easy | Account created |
+| 1. Fluency | S1 (from week 5) | 30 | Arrays, strings, hash maps, basic math | 3–4 easy | Account created (week 4) |
 | 2. Patterns | S2–Summer 1 | 160 | Two pointers, sliding window, stack/monotonic stack, binary search, linked list, recursion, trees, BFS/DFS, heaps, intervals | 6–8 (mostly medium from April) | **1300** |
 | 3. Core interview set | S3–S4 | 300 | Graphs (topo sort, Dijkstra, union-find), backtracking, DP (1-D → 2-D → knapsack/LIS/LCS), tries, greedy, bit manipulation · **NeetCode 150 complete by end of S4** | 6–8 + 1 contest | **1550** |
 | 4. Speed + company sets | S5–S6 | 420 | Company-tagged mediums, segment tree/Fenwick (for CP), DP on trees/graphs, hards (1/week) | Timed: 2 problems in 70 min, weekly | **1650–1800** |
