@@ -63,8 +63,8 @@ each module lists alternatives if a default does not suit you.
 
 | Module | Take this one course | Then build |
 | :--- | :--- | :--- |
-| [M0](../curriculum/1-foundations.md#module-0) Maths bridge | [Book of Proof](https://richardhammack.github.io/BookOfProof/) (text) + [Khan Precalculus](https://www.khanacademy.org/math/precalculus) | 200 Hammack exercises |
-| [M1](../curriculum/1-foundations.md#module-1) Python | [Harvard CS50P](https://cs50.harvard.edu/python/) | Weather CLI |
+| [M0](../curriculum/1-foundations.md#module-0) Maths bridge | [Book of Proof](https://richardhammack.github.io/BookOfProof/) (text) + [Khan Precalculus](https://www.khanacademy.org/math/precalculus) | Book of Proof ch. 1–4 at 15 min/day (about 200 exercises is a later target, not a gate) |
+| [M1](../curriculum/1-foundations.md#module-1) Python | New to Python: [Week 0](week-0.md#week-0) (Scrimba), then [Harvard CS50P](https://cs50.harvard.edu/python/) | [Starter project](../curriculum/1-foundations.md#m1-starter-project), then the [weather CLI capstone](../curriculum/1-foundations.md#m1-capstone) |
 | [M2](../curriculum/1-foundations.md#module-2) Calculus | [MIT 18.01 / MITx 18.01.1x](https://mitxonline.mit.edu/courses/course-v1:MITxT+18.01.1x/) | Gradient-descent lab |
 | [M3](../curriculum/1-foundations.md#module-3) Linear algebra | [MIT 18.06 SC](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 5 linear-algebra minis |
 | [M4](../curriculum/1-foundations.md#module-4) Algorithms | [MIT 6.006](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) | Meal planner |

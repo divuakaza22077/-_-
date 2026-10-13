@@ -33,7 +33,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 
 | Module | Title |
 |---|---|
-| — | [🩺 Math-Foundations Diagnostic & Remediation Map](1-foundations.md#math-diagnostic) |
+| — | [🌱 New here? Week 0 and the first 30 days](1-foundations.md#new-here) · [🩺 Maths placement (optional, never a gate)](1-foundations.md#math-diagnostic) |
 | M0 | [Mathematical Maturity Bridge — Pre-Calculus, Logic & Proof](1-foundations.md#module-0) |
 | M1 | [Programming Foundations & Computational Thinking](1-foundations.md#module-1) · [🐍 free Python course matrix](1-foundations.md#python-course-matrix) |
 | M2 | [Calculus + Matrix Calculus & Convex Optimisation](1-foundations.md#module-2) |
