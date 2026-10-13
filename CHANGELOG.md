@@ -7,6 +7,24 @@
 
 Each pass records what changed, what was verified, and what was deliberately left alone. Full HTTP status logs live in [`audit/VERIFICATION.md`](audit/VERIFICATION.md); per-pass reports live in [`audit/`](audit/).
 
+<a id="v2026-6"></a>
+### v2026.6 — First 30 Days · 2026-10-13
+
+**Diagnosis addressed:** a first-year CS student who was a complete Python beginner could not start Week 0/1. Onboarding gave three conflicting first steps (START-HERE: CS50P; the Foundations matrix: Scrimba → Automate → CS50P; the four-year plan: a 15-question diagnostic + all of CS50P + Missing Semester + M0b + 30 LeetCode + accounts, all in week 1). The diagnostic it required had never been written. The Scrimba link had silently redirected to a LangChain.js course. The first project was a Week 9–14-level task. **No rigour was deleted:** advanced material was moved into collapsible "Advanced / later" blocks, with text and anchors preserved.
+
+| Change | Detail |
+| :--- | :--- |
+| **[`guides/week-0.md`](guides/week-0.md#week-0)** (new) | 7 days × 45–60 min, Scrimba *Learn Python* (c03) only. Daily task table with a "done when" column, retrieval warm-ups, a 15-minute bad-day fallback, an implementation-intention prompt, and Day 7 = rebuild PayUp from memory and share it. Says plainly: no diagnostic, GitHub, tracker or track choice yet. Includes a cited **[Why this design](guides/week-0.md#why-this-design)** note. |
+| **[`guides/first-30-days.md`](guides/first-30-days.md#first-30-days)** (new) | Week 1: CS50P L0 + PS0 in cs50.dev, first repo `python-journey`. Week 2: CS50P L1 + Khan Precalculus course challenge (placement only) + 3Blue1Brown EoLA 1–3. Weeks 3–4: CS50P L2–3, five named Exercism exercises, first original mini project. Each week: goal, hours, ≤ 4 done-when boxes and a "math meets code" micro-task. |
+| **[`START-HERE.md`](START-HERE.md)** | The only beginner instruction is **Open Week 0**. Other rows kept for Week-0 finishers, experienced, four-year-plan and returning learners. All 15 anchors preserved. README and FAQ pointers aligned. |
+| **[Four-Year Plan S1](guides/four-year-plan.md#s1)** | Week 0 Scrimba → Weeks 1–10 CS50P. Maths placement moved to week 2 and made non-gating. DSA deferred to week 5 (after CS50P L3). LinkedIn/Codeforces accounts moved to week 4. Starter project before the weather CLI. Exit check now starts with "Week 0 done". |
+| **[`curriculum/1-foundations.md`](curriculum/1-foundations.md#new-here)** | Calm 5-line "Start here if you're new" box. Fear copy, the Math Maturity Operating Manual, Modern Python Tooling, Lean, Axler and Boyd moved into `<details>`. Honest [maths placement](curriculum/1-foundations.md#math-diagnostic) replaces the unsupplied diagnostic. New [beginner maths track](curriculum/1-foundations.md#beginner-math-track). M0b reduced to *Book of Proof* ch. 1–4 at 15 min/day; the 200-exercise gate became a recommended target. Math Academy labelled paid/optional. Course matrix and pairing stack updated. New [M1 starter project](curriculum/1-foundations.md#m1-starter-project) before the [weather-CLI capstone](curriculum/1-foundations.md#m1-capstone). |
+| **[Progress tracker](guides/progress-tracker.md#starter-tracker)** | 12-box starter tracker on top, a one-line daily log and a real [resume](guides/progress-tracker.md#resume) section. The full tracker is collapsed, verbatim. |
+| **[Stuck or unmotivated?](guides/how-to-read-a-module.md#stuck-or-unmotivated)** | 10 symptom → 15-minute action rows. |
+| **Link fixes** | Scrimba `learn-python-c02t` (now redirects to LangChain.js) → `learn-python-c03`. Helsinki `programming-24` → `programming-26` (the 2026 edition). Dead MIT 18.01A exam link flagged. 32 pre-existing broken internal anchors repaired (`#resume`, `#reading-order`, `#module-default-1`, `#known-limitations`, six stratum anchors). [`tools/check_links.py`](tools/check_links.py): **0 failures**. Every added or changed external URL is logged in [`audit/VERIFICATION.md`](audit/VERIFICATION.md#v2026-6-first-30-days). |
+
+**Deliberately unchanged:** module numbering, the module projects, the free-first policy, and all advanced curriculum prose (moved, not deleted). No new compulsory course was added beyond Scrimba for Week 0.
+
 ### v2026.5 — Clear Path · 2026-08-30
 
 **Diagnosis addressed:** first-time readers could not tell **what to do**. Feedback from students reading the repo cold produced three complaints: it was unclear whether this was software to install or a document to read; the entry points offered ~35 competing starting choices before any action; and each module's long resource list read as a mandatory to-do list rather than as link-rot insurance. No curriculum content was rewritten in this pass — every change is navigational, explanatory, or a factual correction.

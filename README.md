@@ -4,7 +4,7 @@
 
 [Start here](START-HERE.md) · [Browse all modules](curriculum/README.md#all-modules) · [Resume studying](guides/progress-tracker.md#resume) · [FAQ](FAQ.md)
 
-[![Version](https://img.shields.io/badge/version-2026.5%20Clear%20Path-blue)](CHANGELOG.md#refresh-log)
+[![Version](https://img.shields.io/badge/version-2026.6%20First%2030%20Days-blue)](CHANGELOG.md#refresh-log)
 [![Modules](https://img.shields.io/badge/modules-27-6f42c1)](curriculum/README.md#all-modules)
 [![Policy](https://img.shields.io/badge/policy-free--first-1a7f37)](FAQ.md#cost-and-access)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-lightgrey)](LICENSE.md)
