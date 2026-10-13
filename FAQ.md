@@ -167,6 +167,19 @@ instruction while producing nothing; the fix is the five-step protocol in
 
 ---
 
+<a id="known-limitations"></a>
+## Known limitations
+
+Honest notes on what is still rough. None of them block a beginner from starting [Week 0](guides/week-0.md#week-0).
+
+- **The old 15-question maths diagnostic was never written.** It has been replaced by a free, non-gating [maths placement](curriculum/1-foundations.md#math-diagnostic). The original table is kept, collapsed, for reference; two of its links are now dead.
+- **Links move.** Course providers change URLs and editions (Scrimba and the Helsinki MOOC both did in 2026). Every link changed in a pass is logged in [`audit/VERIFICATION.md`](audit/VERIFICATION.md) with its HTTP status and date.
+- **"Free" can change.** Some platforms are free to audit but charge for certificates, and a few books are paid. Paid items are labelled. Never buy something just to resolve a confusing instruction; report it instead.
+- **Advanced modules are dense.** Later modules keep university-level depth, much of it collapsed under "Advanced / later". Use the [Pick-One table](guides/how-to-read-a-module.md#pick-one) and skip what you don't need yet.
+- **Found something contradictory?** [Open a "Something was confusing" issue](https://github.com/akazadivu-design/data-sci/issues/new/choose) upstream. If you couldn't work out what to do, that is a defect in the roadmap, not your mistake.
+
+---
+
 <a id="symbols"></a>
 ## Symbols
 
@@ -181,7 +194,7 @@ These marks appear next to links and claims throughout the repository.
 | ⏭ | Deliberately deferred to a later release |
 | 📦 | A mandatory module project |
 | ⚡ | An intuition-first alternative route for the practitioner track |
-| 🩺 | The maths diagnostic |
+| 🩺 | The maths placement (optional, never a gate) |
 | 🟩 🟨 🟧 🟦 🟪 🔴 | The six curriculum strata, in order |
 
 ---

@@ -29,6 +29,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 
 ## All modules
 
+<a id="foundations"></a>
 ### 🟩 [Stratum 1 — Foundations](1-foundations.md)
 
 | Module | Title |
@@ -41,6 +42,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 | M4 | [Discrete Math, Algorithms & Data Structures](1-foundations.md#module-4) |
 | M5 | [Probability Theory — The Language of Uncertainty](1-foundations.md#module-5) |
 
+<a id="statistics-and-data"></a>
 ### 🟨 [Stratum 2 — Statistics & Data](2-statistics-and-data.md)
 
 | Module | Title |
@@ -51,6 +53,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 | M8a | [Databases, SQL & Warehouses](2-statistics-and-data.md#module-8a) |
 | M8b | [Distributed Data & Streaming Systems](2-statistics-and-data.md#module-8b) · [course page](../coursepages/m8b-distributed-data/README.md) |
 
+<a id="classical-ml"></a>
 ### 🟧 [Stratum 3 — Classical ML](3-classical-ml.md)
 
 | Module | Title |
@@ -60,6 +63,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 | M11 | [Unsupervised Learning, Dimensionality Reduction & Mixture Models](3-classical-ml.md#module-11) |
 | M12 | [Ensemble Methods, Tree-Based Learning & Boosting](3-classical-ml.md#module-12) |
 
+<a id="probabilistic-ml"></a>
 ### 🟦 [Stratum 4 — Probabilistic ML](4-probabilistic-ml.md)
 
 | Module | Title |
@@ -67,6 +71,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 | M13 | [Bayesian Inference, Graphical Models & MCMC](4-probabilistic-ml.md#module-13) |
 | M14 | [Sequence Modelling — HMMs, Kalman Filters & Time Series](4-probabilistic-ml.md#module-14) |
 
+<a id="deep-learning"></a>
 ### 🟪 [Stratum 5 — Deep Learning](5-deep-learning.md)
 
 | Module | Title |
@@ -75,6 +80,7 @@ The full curriculum is organised into **six strata**. Work through them in order
 | M16 | [Representation Learning, Transformers & Generative Models](5-deep-learning.md#module-16) |
 | M17 | [Reinforcement Learning & Decision Making](5-deep-learning.md#module-17) |
 
+<a id="frontier-and-production"></a>
 ### 🔴 [Stratum 6 — Frontier & Production](6-frontier-production.md)
 
 | Module | Title |
