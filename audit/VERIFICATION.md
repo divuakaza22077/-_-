@@ -445,3 +445,67 @@ Recorded so that a future pass does not re-discover them.
 ## P6-I) Verified-SAFE rule (unchanged)
 
 Every URL introduced in v2026.3 appears in the tables above with a 2026-07-26/30 verification date. **No URL entered README.md that is not in this document.** Where a resource was unverifiable or dead it was omitted and the reason recorded in P6-G, rather than being silently dropped.
+
+---
+
+<a id="v2026-6-first-30-days"></a>
+## v2026.6 — First 30 Days · link verification (2026-10-13)
+
+**Method:** `curl -sL -A "Mozilla/5.0" --max-time 25`, final HTTP status after redirects, checked 2026-10-13. Content claims (hours, projects, teacher, edition) were read from the live pages. Legend as above: ✅ 200 · ⚠️ 403 bot-gated but browser-accessible · ❌ dead · 🔁 replaced.
+
+### A) Changed links
+
+| Old URL | Status | What it is now | Replacement | Replacement status |
+|---|:---:|---|---|:---:|
+| `https://scrimba.com/learn-python-c02t` | 200 | ❌ **Wrong content:** canonical is now `scrimba.com/learn-langchainjs-c02t` (a LangChain.js course by Tom Chant) | 🔁 `https://scrimba.com/learn-python-c03` | ✅ 200 |
+| `https://programming-24.mooc.fi/` | 200 | ⏭ Archived 2024 edition ("open until the end of the year 2024") | 🔁 `https://programming-26.mooc.fi/` (2026 edition, "open until the end of the year 2026") | ✅ 200 |
+| `https://ocw.mit.edu/courses/18-01a-calculus-fall-2005/resources/exam_a/` | **404** | ❌ 18.01A no longer on MIT OCW (course root also 404) | 🔁 `https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/exams/` (new placement table); old link kept only inside the collapsed historical table, with a dead-link note | ✅ 200 |
+| `https://www.cambridge.org/core/books/how-to-prove-it/` | **404** | ❌ Book landing page moved | ⏭ Not replaced (historical collapsed table only). A live page exists at `cambridge.org/highereducation/books/how-to-prove-it/6D2965D625C6836CD4A785A2C843B3DA` (200) for a future pass | — |
+
+Also checked: `programming-25.mooc.fi` (200, 2025 edition, closed at end of 2025). It was not used because `programming-26` is current.
+
+### B) Added external links
+
+| URL | HTTP | Verdict | Checked | Use / note |
+|---|:---:|:---:|---|---|
+| `https://cs50.dev/` | **200** | ✅ | 2026-10-13 | CS50 browser VS Code |
+| `https://cs50.harvard.edu/python/honesty/` | **200** | ✅ | 2026-10-13 | CS50 academic honesty (no public pset solutions) |
+| `https://cs50.harvard.edu/python/psets/0/` | **200** | ✅ | 2026-10-13 | CS50P problem set (first 30 days) |
+| `https://cs50.harvard.edu/python/psets/1/` | **200** | ✅ | 2026-10-13 | CS50P problem set (first 30 days) |
+| `https://cs50.harvard.edu/python/psets/2/` | **200** | ✅ | 2026-10-13 | CS50P problem set (first 30 days) |
+| `https://cs50.harvard.edu/python/psets/3/` | **200** | ✅ | 2026-10-13 | CS50P problem set (first 30 days) |
+| `https://cs50.harvard.edu/python/weeks/0/` | **200** | ✅ | 2026-10-13 | CS50P lecture page (first 30 days) |
+| `https://cs50.harvard.edu/python/weeks/1/` | **200** | ✅ | 2026-10-13 | CS50P lecture page (first 30 days) |
+| `https://cs50.harvard.edu/python/weeks/2/` | **200** | ✅ | 2026-10-13 | CS50P lecture page (first 30 days) |
+| `https://cs50.harvard.edu/python/weeks/3/` | **200** | ✅ | 2026-10-13 | CS50P lecture page (first 30 days) |
+| `https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories` | **200** | ✅ | 2026-10-13 | First repo how-to |
+| `https://doi.org/10.1037/0003-066X.54.7.493` | **403** | ⚠️ | 2026-10-13 | Gollwitzer 1999 (implementation intentions). Publisher bot-gated; confirmed via Crossref |
+| `https://doi.org/10.1037/0003-066X.55.1.68` | **403** | ⚠️ | 2026-10-13 | Ryan & Deci 2000 (SDT). Publisher bot-gated; confirmed via Crossref |
+| `https://doi.org/10.1111/j.1467-9280.2006.01693.x` | **403** | ⚠️ | 2026-10-13 | Roediger & Karpicke 2006 (test-enhanced learning). Publisher bot-gated; confirmed via Crossref |
+| `https://doi.org/10.3390/educsci11100643` | **403** | ⚠️ | 2026-10-13 | Rõõm, Lepp & Luik 2021, Educ. Sci. 11(10):643. Publisher bot-gated; metadata + abstract confirmed via Crossref API |
+| `https://exercism.org/tracks/python` | **200** | ✅ | 2026-10-13 | Free practice track (page: 146 exercises, "100% free") |
+| `https://exercism.org/tracks/python/exercises/ghost-gobble-arcade-game` | **200** | ✅ | 2026-10-13 | First-30-days exercise (bogus slug control returns 404, so 200 is genuine) |
+| `https://exercism.org/tracks/python/exercises/guidos-gorgeous-lasagna` | **200** | ✅ | 2026-10-13 | First-30-days exercise (bogus slug control returns 404, so 200 is genuine) |
+| `https://exercism.org/tracks/python/exercises/hello-world` | **200** | ✅ | 2026-10-13 | First-30-days exercise (bogus slug control returns 404, so 200 is genuine) |
+| `https://exercism.org/tracks/python/exercises/leap` | **200** | ✅ | 2026-10-13 | First-30-days exercise (bogus slug control returns 404, so 200 is genuine) |
+| `https://exercism.org/tracks/python/exercises/meltdown-mitigation` | **200** | ✅ | 2026-10-13 | First-30-days exercise (bogus slug control returns 404, so 200 is genuine) |
+| `https://futurecoder.io/` | **200** | ✅ | 2026-10-13 | Free interactive helper |
+| `https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/` | **200** | ✅ | 2026-10-13 | Companion in beginner maths track |
+| `https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/exams/` | **200** | ✅ | 2026-10-13 | Optional stretch placement; replaces dead 18.01A exam link. Practice exams 1–4 + solutions |
+| `https://programming-26.mooc.fi/` | **200** | ✅ | 2026-10-13 | Current Helsinki MOOC edition (open to end of 2026); 14 parts; BSCS1001 + BSCS1002, 5 ECTS each |
+| `https://pythontutor.com/` | **200** | ✅ | 2026-10-13 | Free code visualiser |
+| `https://pythontutor.com/python-compiler.html` | **200** | ✅ | 2026-10-13 | Python Tutor editor (Week 0 Day 7, stuck table) |
+| `https://scrimba.com/discord` | **200** | ✅ | 2026-10-13 | Redirects to discord.com/invite/nDebDaqCcR (Scrimba community) |
+| `https://scrimba.com/learn-python-c03` | **200** | ✅ | 2026-10-13 | Week 0 course. Page states free, 4.1 h, certificate, 3 projects (PayUp, word scramble, karaoke queue), teacher Treasure Porth |
+| `https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science` | **200** | ✅ | 2026-10-13 | DeepLearning.AI, 3-course series, free audit (certificate paid), Python labs |
+| `https://www.khanacademy.org/math/precalculus/test/x9e81a4f98389efdf:course-challenge` | **200** | ✅ | 2026-10-13 | Placement. 30 questions, 30–45 min (Khan listing). SPA returns 200 for any path; exact URL confirmed via Khan search listing |
+| `https://www.mathacademy.com/` | **200** | ✅ | 2026-10-13 | Labelled PAID / optional; never required |
+
+### C) Internal link check
+
+`python3 tools/check_links.py` → **0 failures** (it was 32 on `master` before this pass; all were pre-existing broken anchors, now repaired).
+
+### D) Summary
+
+- **External URLs added:** 32 · **✅ 200:** 28 · **⚠️ 403 (DOI publishers, bot-gated; verified via Crossref):** 4 · **❌ shipped:** 0
+- **Links replaced:** 2 (Scrimba, Helsinki) · **dead links flagged in preserved historical text:** 2 (MIT 18.01A, Cambridge Velleman)

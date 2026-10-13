@@ -2,17 +2,80 @@
 
 ---
 
+<a id="new-here"></a>
+> **🌱 Start here if you're new**
+>
+> 1. New to Python? **[Open Week 0](../guides/week-0.md#week-0).** Seven days, in your browser, nothing to install.
+> 2. Then follow the [first 30 days](../guides/first-30-days.md#first-30-days). That is the gentle start of Module 1.
+> 3. You don't need anything else on this page yet. No diagnostic, no proofs, no tooling.
+> 4. The maths placement in Week 2 only helps you pick resources. It never blocks you.
+> 5. The rest of this page is reference for later. It will wait for you.
+
 # 🟩 FOUNDATION STRATUM — Modules 0–5
 
 <img src="../assets/stratum-1-foundations.jpg" alt="Foundation stratum, modules 0 to 5" width="100%">
 
 > **Reading this page:** each module lists many resources — that is a menu, not a to-do list. Take **one** primary course; see the [Pick-One table](../guides/how-to-read-a-module.md#pick-one). Citations like *"Video 1 (05:05)"* are resolved in [sources](../guides/sources.md#citation-key).
 
+> These six modules build the maths and programming base for everything later. Take them at your own pace; each one links back to what it supports.
+
+<details>
+<summary><strong>Advanced / later:</strong> why the original authors call this base "non-negotiable"</summary>
+
 > These six modules establish the non-negotiable mathematical and programming substrate. **A weakness in any one will cause silent failure later** — e.g., a shaky grasp of eigenvalues cripples PCA, a shaky grasp of chain rule cripples backprop, a shaky grasp of `∀ / ∃ / ⟹` cripples your ability to read a single PRML proof.
+
+</details>
 
 ---
 
 <a id="math-diagnostic"></a>
+## 🩺 Maths placement (optional, never a gate)
+
+**For beginners:** take this once in [Week 2 of your first 30 days](../guides/first-30-days.md#week-2). It tells you which free resources fit you. **It never blocks Module 1**, and nobody "fails" it.
+
+<a id="math-placement-step-1"></a>
+### Step 1 — Take one free placement check (30–45 min)
+
+| Who | Placement check | What it covers |
+|---|---|---|
+| **Everyone** | [Khan Academy Precalculus course challenge](https://www.khanacademy.org/math/precalculus/test/x9e81a4f98389efdf:course-challenge) (free account, 30 questions, about 30–45 min) | Functions, trigonometry, complex numbers, vectors, matrices, series |
+| **Optional, if that felt easy** | Try one practice exam from [MIT 18.01 Single Variable Calculus — exams](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/pages/exams/) (MIT OCW, free; solutions included) | Limits, derivatives, integrals |
+
+> **Honesty note.** Earlier versions promised a unified 15-question diagnostic. It was never written, and its first link (an MIT 18.01A exam page) is no longer on MIT OCW. The table above replaces it with checks that exist and are free today. The original six-strand table is kept below for reference.
+
+<a id="math-placement-step-2"></a>
+### Step 2 — Use your result to pick resources (never to stop)
+
+Keep going with [Module 1](#module-1) whatever you score. Then add **one** of these, at about 15–30 min a day:
+
+| Your Khan course-challenge result | Add this alongside Python |
+|---|---|
+| **Many questions felt unfamiliar** | The Khan units you missed (the course challenge shows them). Then the [beginner maths track](#beginner-math-track). |
+| **Mixed** | The [beginner maths track](#beginner-math-track), starting with 3Blue1Brown. Revisit missed Khan units when your college course reaches them. |
+| **Most questions felt easy** | The [beginner maths track](#beginner-math-track) at a faster pace, plus an MIT 18.01 practice exam if you like a stretch. |
+
+Your college maths course is still your main maths course. These resources sit beside it.
+
+<a id="beginner-math-track"></a>
+### 🌱 Beginner maths track (free, alongside Python)
+
+A gentle, visual route that touches code early. It runs alongside your college maths, not instead of it.
+
+| Order | Resource | Time | Why |
+|---|---|---|---|
+| 1 | 3Blue1Brown, [*Essence of Linear Algebra*](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) | ≈ 3 h of video | Pictures first: vectors, matrices, transformations |
+| 2 | 3Blue1Brown, [*Essence of Calculus*](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) | ≈ 3 h of video | Derivatives and the chain rule as pictures |
+| 3 | DeepLearning.AI, [*Mathematics for Machine Learning and Data Science*](https://www.coursera.org/specializations/mathematics-for-machine-learning-and-data-science) (Coursera; free to audit, certificate paid) | 3 courses, self-paced | Linear algebra, calculus, probability and statistics, with Python labs |
+| Companion | Your college course, or MIT [18.01](https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/) and [18.06](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) on OCW | — | Full university depth when you are ready for [Module 2](#module-2) and [Module 3](#module-3) |
+| Proof habit | [*Book of Proof*](https://richardhammack.github.io/BookOfProof/), chapters 1–4 | 15 min/day | Sets, logic and the first proof techniques ([Module 0b](#module-0), reduced) |
+
+> **Optional, paid:** [Math Academy](https://www.mathacademy.com/) is an adaptive maths platform with a monthly subscription. Some learners like it. It is **never required** by this roadmap, and everything above is free.
+
+<details>
+<summary><strong>Advanced / later:</strong> the original six-strand diagnostic table and remediation rules</summary>
+
+> Kept verbatim for reference. Link check on 2026-10-13: the MIT 18.01A exam link (row 1) returns 404 and the Velleman link (row 3) returns 404; see [`audit/VERIFICATION.md`](../audit/VERIFICATION.md#v2026-6-first-30-days). Use the placement table above instead.
+
 ## 🩺 Math-Foundations Diagnostic & Remediation Map
 
 > **Why this section exists:** Most self-learners fail at Modules 9–17 not because ML is hard, but because they skipped (or mis-sequenced) one of *six* prerequisite skills. Below is a **15-question, 60-minute diagnostic** plus a **remediation table** so you can fix the weakness *before* it metastasises.
@@ -36,6 +99,13 @@ Pick **one** of these freely-available diagnostic instruments — each maps clea
 * **Score 50–70 %:** Spot-fix using the per-topic links inside Module 0a / 0b.
 * **Score > 70 %:** Skip Module 0; you are ready for Module 1 + 2 in parallel.
 
+
+</details>
+
+<details>
+<summary><strong>Advanced / later:</strong> the Math Maturity Operating Manual (seven habits, including optional Lean)</summary>
+
+<a id="math-maturity-manual"></a>
 ### Step 3 — Adopt the **Math Maturity Operating Manual**
 
 Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) implicitly assumes you have these **seven habits**:
@@ -50,14 +120,30 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
 
 > **Cited source for habits 1–6:** Cambridge IB Discrete Mathematics + Harvard Math 22a "Reasoning, Proof, and Linear Algebra" course handbooks (2025–26).
 
+</details>
+
 ---
 
 <a id="module-0"></a>
 ## Module 0: Mathematical Maturity Bridge — Pre-Calculus, Logic & Proof
 
-> **Status:** Optional **only** if you scored > 70 % on every diagnostic above. Otherwise: **mandatory**.
+> **Status:** Recommended, never a gate. Beginners: do *Book of Proof* ch. 1–4 at 15 min/day alongside college maths (see the [beginner maths track](#beginner-math-track)). The full module is for later.
 
-* **The Tutor's "Why":** No university teaches *the leap* from procedural high-school math to definition-driven university math — they assume you already made it. The result: 60 %+ of self-learners stall at Module 5 (probability proofs) or Module 9 (regression assumptions). Cambridge's IB CST course explicitly assumes "Mathematics for Natural Sciences" maturity; MIT 6.7960 assumes 18.05 + a proof course; Harvard CS 1810 assumes Math 22a (linear algebra **with proofs**). **This module IS that proof course, compressed and free.**
+<details>
+<summary><strong>Advanced / later:</strong> the original status line</summary>
+
+> Optional **only** if you scored > 70 % on every diagnostic above. Otherwise: **mandatory**.
+
+</details>
+
+* **The Tutor's "Why":** University maths is built on definitions and proofs, and most courses assume you already made that jump from school maths. This module is a free, gentle bridge across it.
+
+  <details>
+  <summary><strong>Advanced / later:</strong> the original rationale</summary>
+
+  **The Tutor's "Why":** No university teaches *the leap* from procedural high-school math to definition-driven university math — they assume you already made it. The result: 60 %+ of self-learners stall at Module 5 (probability proofs) or Module 9 (regression assumptions). Cambridge's IB CST course explicitly assumes "Mathematics for Natural Sciences" maturity; MIT 6.7960 assumes 18.05 + a proof course; Harvard CS 1810 assumes Math 22a (linear algebra **with proofs**). **This module IS that proof course, compressed and free.**
+
+  </details>
 
 * **Strict Prerequisites:** Working knowledge of high-school algebra (solve linear and quadratic equations).
 
@@ -98,7 +184,11 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
     7. **Pigeonhole principle** — e.g., among any 13 people, two share a birth-month.
   * **Number theory primer:** divisibility, gcd, Euclidean algorithm (with extended version), Bezout's identity, modular arithmetic, Fermat's little theorem, Chinese Remainder Theorem (used in cryptography and hashing).
   * **Combinatorial identities:** Pascal's rule, hockey-stick identity, Vandermonde's identity (you will re-encounter all three in Stat 110 Lec 1–2).
-  * **(Optional) Lean 4 first contact:** prove `∀ n : ℕ, n + 0 = n` interactively. *Not required for the curriculum but a 10× force-multiplier on every later module's confidence.*
+  * <details><summary><strong>Advanced / later:</strong> optional Lean 4 first contact</summary>
+
+    **(Optional) Lean 4 first contact:** prove `∀ n : ℕ, n + 0 = n` interactively. *Not required for the curriculum but a 10× force-multiplier on every later module's confidence.*
+
+    </details>
 
 * **2026 Resources:**
   * **Primary text (free, CC-BY):** [_Book of Proof_ (Hammack, **3rd Edition, 2018; revised 2025**)](https://richardhammack.github.io/BookOfProof/) — chapters 1–10. Open Textbook Initiative-approved; used at 50+ universities.
@@ -110,7 +200,14 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
 
 * **Outcome:** When you finish Module 0b you can **read any theorem statement in Stat 110 / 18.06 / CS 1810 and re-state it formally before attempting the proof.** That single skill is the difference between a frustrated learner and an MIT-track one.
 
-* **Suggested Pace:** 6 weeks at 10 hrs/week = 60 hrs total; or 12 weeks at 5 hrs/week. **Do not skip the exercises** — Hammack provides 600+ with hints, and *doing 200 of them* is the entire point of this module.
+* **Suggested Pace:** Beginners: *Book of Proof* ch. 1–4 at **15 min/day** alongside college maths. Full module later: 6 weeks at 10 hrs/week, or 12 weeks at 5 hrs/week. Hammack provides 600+ exercises with hints; **about 200 is a recommended target, not a gate** before [Module 2](#module-2).
+
+  <details>
+  <summary><strong>Advanced / later:</strong> the original pace note</summary>
+
+  **Suggested Pace:** 6 weeks at 10 hrs/week = 60 hrs total; or 12 weeks at 5 hrs/week. **Do not skip the exercises** — Hammack provides 600+ with hints, and *doing 200 of them* is the entire point of this module.
+
+  </details>
 
 > ### ⚡ Intuition-First Alternative (Practitioner Track)
 >
@@ -127,9 +224,18 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
 <a id="module-1"></a>
 ## Module 1: Programming Foundations & Computational Thinking
 
-* **The Tutor's "Why":** All 2026 data-science work is Python-first (with selective Polars/R/Julia). You cannot derive a gradient if you cannot write a loop. This module is the gateway — master it, or every subsequent module becomes guesswork.
+* **The Tutor's "Why":** Almost all data-science and AI work in 2026 is done in Python. This module gives you that foundation, one small program at a time.
 
-* **Strict Prerequisites:** High-school algebra. A working laptop with VS Code installed.
+* **🌱 New to programming?** Do [Week 0](../guides/week-0.md#week-0) and the [first 30 days](../guides/first-30-days.md#first-30-days) first. They cover CS50P weeks 0–3 and your [starter project](#m1-starter-project).
+
+  <details>
+  <summary><strong>Advanced / later:</strong> the original rationale</summary>
+
+  **The Tutor's "Why":** All 2026 data-science work is Python-first (with selective Polars/R/Julia). You cannot derive a gradient if you cannot write a loop. This module is the gateway — master it, or every subsequent module becomes guesswork.
+
+  </details>
+
+* **Strict Prerequisites:** High-school algebra and a web browser. Week 0 runs in Scrimba, and CS50P provides VS Code in the browser at [cs50.dev](https://cs50.dev/). A local VS Code install is optional.
 
 * **Exhaustive Topic List:**
   * **[Harvard CS50P · Week 0]**: Functions, variables, types (int/float/str), `print`, formatted strings, conditionals, boolean expressions.
@@ -152,7 +258,14 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
   * **Required Reading (Latest 2026 Editions):**
     * _Fluent Python_ (**2nd Edition, 2022** — the current edition; [fluentpython.com](https://www.fluentpython.com/) ✅) — Luciano Ramalho — chapters 1–6, 9 (closures/decorators), 17 (iterators).
     * _Python Crash Course_ (**3rd Edition** — the current edition; [No Starch](https://nostarch.com/python-crash-course-3rd-edition) ✅) — Eric Matthes — for absolute beginners only.
-  * **Practical Implementation:** **Python 3.12+** (pattern matching, improved error messages, per-interpreter GIL awareness). IDE: **VS Code** with `ms-python.python`, `charliermarsh.ruff`, `ms-python.mypy-type-checker`. Dependency manager: **`uv`** (2024-released, now standard).
+  * **Practical Implementation:** Start in the browser (Scrimba, then [cs50.dev](https://cs50.dev/)). Professional tooling comes after CS50P; see below.
+
+<details>
+<summary><strong>Advanced / later (after CS50P):</strong> Python version, editor setup and Modern Python Tooling (uv, mypy, Pydantic, asyncio, hypothesis, pre-commit)</summary>
+
+<a id="modern-python-tooling"></a>
+* **Practical Implementation:** **Python 3.12+** (pattern matching, improved error messages, per-interpreter GIL awareness). IDE: **VS Code** with `ms-python.python`, `charliermarsh.ruff`, `ms-python.mypy-type-checker`. Dependency manager: **`uv`** (2024-released, now standard).
+
 
 * **🛠 Modern Python Tooling:**
   * **Type hints + mypy/pyright + Pydantic v2** — every production ML codebase uses typed Python. Learn: `TypedDict`, `Protocol`, `Generic`, `Annotated`, `TYPE_CHECKING`; [Pydantic v2 docs](https://docs.pydantic.dev/) ✅ for data-validation and settings management.
@@ -162,15 +275,17 @@ Independent of *which* topic, every elite programme (MIT, Cambridge, Harvard) im
   * **`pytest` + `hypothesis` (property-based testing)** — [hypothesis docs](https://hypothesis.readthedocs.io/) ✅. Every ML engineer at FAANG writes property-based tests for numerical code; learn the `@given` decorator and shrinking.
   * **`ruff` + `pyright`** for lint + typecheck; **`pre-commit`** to run them on every commit.
 
+</details>
+
 ### 📅 Official pacing structure — the four-phase Python roadmap
 
 The topic list above is *what* to learn. This is *when*, and — more importantly — *what you must have shipped* by the end of each phase. Pacing and milestones adapted from Scrimba's [beginner's guide to learning Python (2026)](https://scrimba.com/articles/how-to-learn-python-a-beginners-guide-2026/) ✅ and reconciled with the CS50P week map.
 
 | Phase | Weeks | Goal | Core skills | **Milestone you must ship** |
 | :--- | :--- | :--- | :--- | :--- |
-| **1 — Foundations** | 1–4 | Stop being confused by syntax | Variables, types, operators, conditionals, loops, functions, lists/dicts/tuples/sets, string methods | A **number-guessing game** and a **command-line calculator** — both in a git repo with a README |
+| **1 — Foundations** | 1–4 | Stop being confused by syntax | Variables, types, operators, conditionals, loops, functions, lists/dicts/tuples/sets, string methods | A **number-guessing game** or a **command-line calculator** in a git repo with a README: the [M1 starter project](#m1-starter-project) |
 | **2 — Working Python** | 5–8 | Write programs that touch the outside world | File I/O, CSV/JSON, exceptions, `pathlib`, modules + `import`, standard library, virtual envs, regular expressions | A **file-I/O CLI tool** (e.g. an expense tracker or file organiser) that reads and writes real files and survives bad input |
-| **3 — Real-World Python** | 9–14 | Write code another engineer would accept | OOP (classes, inheritance, dunders), decorators, generators, comprehensions, type hints, `pytest`, `requests`, git branching + PRs, debugging | An **API-consuming application** with a class-based design, a `pytest` suite, type hints, and a CI workflow that runs on every push |
+| **3 — Real-World Python** | 9–14 | Write code another engineer would accept | OOP (classes, inheritance, dunders), decorators, generators, comprehensions, type hints, `pytest`, `requests`, git branching + PRs, debugging | An **API-consuming application** with a class-based design, a `pytest` suite, type hints, and a CI workflow that runs on every push. This is the [M1 capstone](#m1-capstone) |
 | **4 — Specialisation** | Month 4–6+ | Point Python at a domain | NumPy/pandas (→ [M7](2-statistics-and-data.md#module-7)), a web framework (Flask/FastAPI), Docker, deployment | **2–3 deployed portfolio projects** — see the [Minimum Production Bar](6-frontier-production.md#production-bar) |
 
 **Phase-matched project ladder.** Match project difficulty to the phase you are actually in. Building above your rung produces copy-paste; building below it produces boredom.
@@ -190,19 +305,30 @@ There is no single best free Python course; there is a best *pair*. This matrix 
 
 | Course | Hours | Format | Free certificate? | Projects | Best for |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **[Scrimba — Learn Python](https://scrimba.com/learn-python-c02t)** ✅ | ~5.6 h · 58 parts | Interactive screencasts you can edit and run inline (Olof Paulson) | Yes | Many small in-browser challenges | The fastest possible *start*. Removes environment-setup friction entirely |
+| **[Scrimba — Learn Python](https://scrimba.com/learn-python-c03)** ✅ · **Week 0 default** | ~4.1 h · 3 sections | Interactive screencasts you can edit and run inline (Treasure Porth) | Yes (free certificate) | 3 projects: PayUp expense splitter, word-scramble game, karaoke queue manager | The fastest possible *start*. Removes environment-setup friction entirely. See [Week 0](../guides/week-0.md#week-0) |
 | **[Harvard CS50P](https://cs50.harvard.edu/python/)** ✅ | ~100 h · 10 weeks | Lectures + graded problem sets (David Malan) | Yes (free certificate) | 9 problem sets + final project | The single best **rigour** option; the spine of this module's topic list |
-| **[University of Helsinki — Python Programming MOOC](https://programming-24.mooc.fi/)** ✅ | 200+ h · 14 parts | Text-based, browser-graded, auto-tested exercises (no video) | ECTS credits available | Hundreds of auto-graded exercises | Learners who prefer **reading over watching** and want relentless exercise volume |
+| **[University of Helsinki — Python Programming MOOC 2026](https://programming-26.mooc.fi/)** ✅ | 200+ h · 14 parts (two 5-ECTS courses: parts 1–7 and 8–14) | Text-based, auto-tested exercises; optional weekly lectures and recordings (Department of Computer Science, University of Helsinki) | ECTS credits via exam; no free certificate | Hundreds of auto-graded exercises | Learners who prefer **reading over watching** and want relentless exercise volume. **Depth alternative to CS50P** |
 | **[freeCodeCamp — Scientific Computing with Python](https://www.freecodecamp.org/learn/scientific-computing-with-python/)** ✅ | ~300 h | Video + browser projects | Yes (free certification) | 5 certification projects | A **free credential** plus scientific-computing framing. ⚠️ Content is older than the others — verify Python-3 idioms against the official docs as you go |
 | **[Coursera — Python for Everybody (Michigan, Severance)](https://www.coursera.org/specializations/python)** ✅ | ~32 h (audit) | University lectures + readings | No — certificate is paid; **audit is free** | Weekly assignments | Learners who want a **classic university sequence** and databases/web-scraping coverage |
 | **[Official Python Tutorial](https://docs.python.org/3/tutorial/)** ✅ | ~15 h | Reference-grade prose | No | None | The **authoritative** source. Use as a companion, never as your first course |
 | **[Google's Python Class](https://developers.google.com/edu/python)** ✅ | ~10 h | Written lessons + exercises | No | Small exercise sets | Programmers **already fluent in another language** who need Python syntax fast |
 | **[Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)** ✅ | Book (3rd Ed., 2025) | Free full text online (Al Sweigart) | No | Chapter-end practice projects | **Motivation and immediate utility** — the single best "why would I use this?" answer |
 
+<a id="python-helpers"></a>
+**Free interactive helpers (use any time, never required):**
+
+| Helper | What it does | Use it when |
+| :--- | :--- | :--- |
+| **[futurecoder](https://futurecoder.io/)** ✅ | Free interactive beginner course with hints, in the browser | A CS50P idea doesn't click and you want a second explanation |
+| **[Python Tutor](https://pythontutor.com/)** ✅ | Visualises your code running, one line at a time | A loop or variable does something you didn't expect |
+| **[Exercism — Python track](https://exercism.org/tracks/python)** ✅ | Free practice exercises with tests, an in-browser editor and optional volunteer mentoring | You want extra practice; the [first 30 days](../guides/first-30-days.md#week-3) uses five exercises |
+
 > **The recommended pairing stack.** No single course produces competence. Run them in this order:
-> **1. [Scrimba — Learn Python](https://scrimba.com/learn-python-c02t)** for a frictionless first two weeks →
-> **2. [Automate the Boring Stuff](https://automatetheboringstuff.com/)** to convert syntax into things you actually use →
-> **3. [CS50P](https://cs50.harvard.edu/python/) *or* the [Helsinki MOOC](https://programming-24.mooc.fi/)** for the depth, testing discipline, and OOP that the fast courses skip. Pick CS50P if you learn from lectures; pick Helsinki if you learn from exercises.
+> **1. [Scrimba — Learn Python](https://scrimba.com/learn-python-c03)** for a frictionless [Week 0](../guides/week-0.md#week-0) →
+> **2. [CS50P](https://cs50.harvard.edu/python/) *or* the [Helsinki MOOC](https://programming-26.mooc.fi/)** for the depth, testing discipline, and OOP that the fast courses skip. Pick CS50P if you learn from lectures; pick Helsinki if you learn from exercises. The [first 30 days](../guides/first-30-days.md#first-30-days) start CS50P for you →
+> **3. Alongside, for motivation: [Automate the Boring Stuff](https://automatetheboringstuff.com/)** to turn syntax into things you actually use. Dip in when you want a fun side project; it is not a separate stage.
+>
+> Practise with the [free helpers](#python-helpers) above whenever you like.
 >
 > **Red flags in any Python course you find elsewhere.** Reject it if (a) it teaches **Python 2** (`print` as a statement, `raw_input`, integer division by default) or (b) it **never reaches OOP, exceptions, or testing** — those are exactly the topics that separate a tutorial-completer from someone employable.
 
@@ -244,7 +370,16 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
 * **Video 1 — [*How to Become an ML Engineer*](https://www.youtube.com/watch?v=UZ_rK9gzVSc)** (03:00–04:00) — the Python competence bar for ML work: data types, control flow, functions, and file handling, then straight into NumPy and pandas ([M7](2-statistics-and-data.md#module-7)). The *fluency illusion* warning is at 09:30.
 * **Video 3 — [*The Only 7 Books You Need to Become an AI Engineer*](https://www.youtube.com/watch?v=Pr9oRVtAqCM)** (01:21) — Python is "table stakes" for the AI Engineer role; *Automate the Boring Stuff* is named as the entry point (see the [Practitioner Shelf](../resources/books.md#practitioner-shelf)).
 
-* **📦 Module Project (mandatory) — Weather CLI**
+<a id="m1-starter-project"></a>
+* **🌱 M1 starter project (Weeks 3–4) — your first original program**
+  * **When:** Week 4 of the [first 30 days](../guides/first-30-days.md#week-4), after CS50P Lectures 0–3.
+  * **Deliverable:** pick **one** from the beginner rung of the [project ladder](#module-1). A **command-line calculator** that handles divide-by-zero and typos politely, *or* a **number-guessing game** with your own twist (limited guesses, a score or difficulty levels).
+  * **Done when:** (1) it runs and survives one bad input; (2) it is in your `python-journey` repository with a short README section; (3) you showed it to one person. No tests, CI or API required.
+  * *Why this exists:* a small, early win before the capstone. Dropout in programming MOOCs peaks in the first weeks ([Why this design](../guides/week-0.md#why-this-design)).
+
+<a id="m1-capstone"></a>
+* **📦 Module Project (mandatory, end-of-M1 capstone) — Weather CLI**
+  * **When:** start around CS50P Lectures 5–6 (testing and files), after the starter project. It is a Phase 3 (Weeks 9–14) milestone.
   * **Deliverable:** A command-line weather tool that takes a city name, calls a real public weather API, caches responses to disk so repeated calls do not re-hit the network, and prints a formatted forecast. Class-based design, type hints throughout.
   * **Definition of done:** (1) `pytest` suite covering the happy path, a bad city name, a network timeout, and a malformed API response — network mocked, not live; (2) `README.md` with install, usage, and one screenshot of real output; (3) a 1-page results memo recording what broke while you built it and how you diagnosed it.
   * **Stretch (adds one production element):** Wire a GitHub Actions workflow that runs `ruff` + `pytest` on every push, and make the badge green.
@@ -257,7 +392,7 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
 
 * **The Tutor's "Why":** Gradients, backpropagation, maximum-likelihood estimation, and Bayes-rule derivations all live or die on calculus. You will not understand *why* SGD converges without it. Harvard's CS 1810 (2026) explicitly requires AM 22a (calc + lin alg). **Crucially, every modern paper denotes gradients in *matrix-calculus* notation (Jacobians, Hessians, vector-by-matrix derivatives) — and 90 % of self-learners have never seen this formalism.** This module fixes that gap.
 
-* **Strict Prerequisites:** Module 0 (proof literacy) + Module 1 (so you can verify integrals with SymPy).
+* **Strict Prerequisites:** Module 0 (proof literacy) + Module 1 (so you can verify integrals with SymPy). *Beginner note: Book of Proof ch. 1–4 is enough to start; the full Module 0 is recommended, not a gate.*
 
 * **Exhaustive Topic List:**
   * **[MIT 18.01.1x · Differentiation]**: Limits and continuity (ε-δ definition), derivative as a limit, power/product/quotient/chain rules, trig derivatives, exponential and log derivatives, implicit differentiation, linear/quadratic approximations, related rates, Mean Value Theorem, L'Hôpital's rule, optimisation (first/second derivative tests), Newton's method.
@@ -268,13 +403,21 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
   * **[IITM BSMA1003 — Math for DS II]**: Vector calculus for optimisation, constrained optimisation, Lagrange multipliers with KKT conditions, convex functions, Jensen's inequality, convex optimisation preview.
   * **[Cambridge Data Science — Wischik]**: Calculus of variations (used in variational inference, M13).
   * **[MIT 18.063 / 18.S096 · Matrix Calculus for Machine Learning, IAP 2023 + Jan 2026 — Edelman & Johnson]**: **Differentials in the language of linear maps** (the *correct* modern view that subsumes both numerator-layout and denominator-layout conventions); derivatives of vector-valued functions of vectors (Jacobians); derivatives of scalar-valued functions of matrices (gradients); derivatives of matrix-valued functions of matrices (4-tensors / Kronecker products); chain rule as composition of linear maps; **forward-mode and reverse-mode automatic differentiation** (the operational foundation of every DL framework); cost analysis of forward-vs-reverse AD (matrix-multiplication-cost argument); derivatives through SVD, eigendecomposition, matrix inverse, determinant, log-determinant, trace, Frobenius norm; **adjoint method** for differentiating through ODE/PDE solutions (used in Neural ODEs and diffusion solvers, M16).
-  * **[Stanford EE364A · Convex Optimization I — Boyd & Vandenberghe (Lectures 1–10) — *promoted from Module 9 to here as a foundation*]**: Convex sets (hyperplanes, half-spaces, polyhedra, balls, ellipsoids, norm cones, positive semi-definite cone), operations preserving convexity, convex functions (definition via secant inequality, first- and second-order conditions, Jensen's inequality), epigraph, sub-level sets, conjugate function, **convex optimisation problems** (LP, QP, QCQP, SOCP, SDP — and *which ML problems map to each*), Lagrangian duality, **KKT conditions** (the single most-cited result in classical ML), strong vs weak duality, complementary slackness, perturbation analysis. **Why here, not later:** every regression / SVM / logistic / GLM proof in Modules 9–14 *assumes* this material.
+  * <details><summary><strong>Advanced / later:</strong> Stanford EE364A convex optimisation (Boyd) — topic list</summary>
+
+    **[Stanford EE364A · Convex Optimization I — Boyd & Vandenberghe (Lectures 1–10) — *promoted from Module 9 to here as a foundation*]**: Convex sets (hyperplanes, half-spaces, polyhedra, balls, ellipsoids, norm cones, positive semi-definite cone), operations preserving convexity, convex functions (definition via secant inequality, first- and second-order conditions, Jensen's inequality), epigraph, sub-level sets, conjugate function, **convex optimisation problems** (LP, QP, QCQP, SOCP, SDP — and *which ML problems map to each*), Lagrangian duality, **KKT conditions** (the single most-cited result in classical ML), strong vs weak duality, complementary slackness, perturbation analysis. **Why here, not later:** every regression / SVM / logistic / GLM proof in Modules 9–14 *assumes* this material.
+
+    </details>
   * **[The Matrix Cookbook — Petersen & Pedersen, 2024 update]** + **[Parr & Howard "The Matrix Calculus You Need For Deep Learning" (arXiv:1802.01528, 2024 revision)]** as *daily-reference* lookup PDFs.
 
 * **2026 Resources:**
   * **Primary Course Link:** [MITx 18.01.1x](https://mitxonline.mit.edu/courses/course-v1:MITxT+18.01.1x/) · [18.01.2x](https://mitxonline.mit.edu/courses/course-v1:MITxT+18.01.2x/) · [18.01.3x](https://mitxonline.mit.edu/courses/course-v1:MITxT+18.01.3x/) · [MIT OCW 18.02SC Multivariable](https://ocw.mit.edu/courses/mathematics/18-02sc-multivariable-calculus-fall-2010/)
   * **Matrix-Calculus track:** [MIT 18.S096 / 18.063 — Matrix Calculus for ML (IAP 2023 + Jan 2026)](https://github.com/mitmath/matrixcalc) — full lecture notes, video, problem sets *all open* on GitHub.
-  * **Convex-Optimisation track:** [Stanford EE364A — Boyd, lectures + slides + book](https://web.stanford.edu/class/ee364a/) · [Free PDF of *Convex Optimization* (Boyd & Vandenberghe, Cambridge 2004, 6th printing 2023)](https://stanford.edu/~boyd/cvxbook/) · YouTube lecture series (re-recorded **Spring 2024**).
+  * <details><summary><strong>Advanced / later:</strong> Convex-Optimisation track (Boyd)</summary>
+
+    **Convex-Optimisation track:** [Stanford EE364A — Boyd, lectures + slides + book](https://web.stanford.edu/class/ee364a/) · [Free PDF of *Convex Optimization* (Boyd & Vandenberghe, Cambridge 2004, 6th printing 2023)](https://stanford.edu/~boyd/cvxbook/) · YouTube lecture series (re-recorded **Spring 2024**).
+
+    </details>
   * **Required Reading (Latest 2026 Editions):**
     * _Calculus: Early Transcendentals_ (**9th Edition, 2025 reprint**) — James Stewart — chapters 1–12.
     * **[Recommended freely-available alternative]** _Active Calculus_ (Boelkins et al., **2024 edition, free online**) — used at 80+ liberal-arts colleges.
@@ -282,12 +425,18 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
     * _Mathematics for Machine Learning_ — Deisenroth, Faisal, Ong (**book PDF last updated December 2025**) — Chapters 5 (Vector Calculus), 6 (Probability), **7 (Continuous Optimization)**. [mml-book.com](https://mml-book.com/) — **explicitly recommended by Harvard CS 1810 (2026)**.
     * ***The Matrix Cookbook*** — Petersen & Pedersen (2024 web update) — [PDF mirror via MIT 18.S096](https://ocw.mit.edu/courses/18-s096-matrix-calculus-for-machine-learning-and-beyond-january-iap-2023/external-resources/the-matrix-cookbook-pdf_fa1edb35-184a-410d-9d60-34488dbc72ee/).
     * **Parr & Howard** "The Matrix Calculus You Need For Deep Learning" — free on arXiv `1802.01528` (revised); also as an HTML web-book at [explained.ai/matrix-calculus](https://explained.ai/matrix-calculus/).
-    * **Boyd & Vandenberghe** _Convex Optimization_ (Cambridge 2004; **6th printing 2023**, free PDF as above) — chapters 1–5 mandatory; 6–11 optional and revisited in M9–M11.
+    * <details><summary><strong>Advanced / later:</strong> Boyd & Vandenberghe reading</summary>
+
+      **Boyd & Vandenberghe** _Convex Optimization_ (Cambridge 2004; **6th printing 2023**, free PDF as above) — chapters 1–5 mandatory; 6–11 optional and revisited in M9–M11.
+
+      </details>
     * 3Blue1Brown: [_Essence of Calculus_ playlist (16 videos, ≈ 3 hrs)](https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr) — required visual intuition.
     * **[Imperial College "Mathematics for Machine Learning" Coursera Specialization (Deisenroth, Cooper, Page — last refreshed Mar 2025)](https://www.coursera.org/specializations/mathematics-machine-learning)** — three courses: Linear Algebra · Multivariable Calculus · PCA. Free audit. *Pedagogically the gentlest on-ramp.*
   * **Practical Implementation:** **SymPy 1.13+** for symbolic verification; **JAX 0.7+** `jax.grad` / `jax.jacrev` / `jax.jacfwd` / `jax.hessian` for automatic differentiation — learn these NOW as you'll need them for all of M15+. **`cvxpy` 1.5+** for convex optimisation modelling (DCP), **`autograd`** as a teaching aid for hand-coding back-prop. Optionally explore **`Zygote.jl`** in Julia for source-to-source AD intuition.
 
-* **Suggested Sequencing (16 weeks at 10 hrs/week):**
+* **🌱 Beginners:** your college calculus course plus 3Blue1Brown's *Essence of Calculus* is enough to start the [module project](#module-2). The 16-week plan below is a later, full-depth option, not a prerequisite for anything in your first year.
+
+* **Suggested Sequencing (full depth, later — 16 weeks at 10 hrs/week):**
   1. Weeks 1–4: Single-variable calc (18.01.1x + 18.01.2x).
   2. Weeks 5–6: Series + Taylor (18.01.3x).
   3. Weeks 7–10: Multivariable (18.02 SC), with daily SymPy verification.
@@ -324,16 +473,24 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
 
 * **The Tutor's "Why":** *Every* modern ML algorithm — from linear regression to attention heads in GPT-class transformers — is a composition of matrix operations. Strang's 18.06 is the global gold standard for the *computational* view; Axler's *Linear Algebra Done Right* (**4th edition, 2024, freely available**) is the gold standard for the *abstract / proof-based* view that PRML, Bishop 2024, and Cambridge MLMI implicitly assume. **You need both.** Cambridge's MLMI Module 1 requires eigendecomposition mastery before week 3.
 
-* **Strict Prerequisites:** Module 0b (proof literacy) + Module 2 (partial derivatives for matrix calculus).
+* **Strict Prerequisites:** Module 0b (proof literacy) + Module 2 (partial derivatives for matrix calculus). *Beginner note: Book of Proof ch. 1–4 is enough for Pass 1; the full Module 0b matters for the Axler pass.*
 
 * **🧭 Suggested Two-Pass Pedagogy:**
   * **Pass 1 — Computational (5 weeks):** Strang 18.06 + 3Blue1Brown — focus on *doing* row-reduction, computing eigenvalues, running SVD on toy matrices. Goal: numerical fluency.
-  * **Pass 2 — Abstract (4 weeks):** Axler 4e (Chapters 1–7, skipping Chapter 8 if PhD-track is not the goal) — focus on *proving* spectral theorem, why SVD always exists, why orthogonal projection minimises distance. Goal: theoretical confidence.
+  * <details><summary><strong>Advanced / later:</strong> Pass 2 — Abstract (Axler)</summary>
+
+    **Pass 2 — Abstract (4 weeks):** Axler 4e (Chapters 1–7, skipping Chapter 8 if PhD-track is not the goal) — focus on *proving* spectral theorem, why SVD always exists, why orthogonal projection minimises distance. Goal: theoretical confidence.
+
+    </details>
   * **Pass 3 — Applications (3 weeks):** Strang's *Linear Algebra and Learning from Data* + Townsend's *Linear Algebra for Data Science* (Cambridge 2024) — focus on *the eight matrix factorisations of ML* (LU, QR, eigendecomposition, SVD, Cholesky, polar, NMF, randomised SVD).
 
 * **Exhaustive Topic List:**
   * **[MIT 18.06 · Strang]**: Systems of linear equations, Gaussian elimination, LU factorisation, vector spaces, subspaces (column space, null space, row space, left null space — the "four fundamental subspaces"), rank-nullity theorem, linear independence, basis, dimension, orthogonality, Gram-Schmidt process, QR decomposition, projections, least squares (normal equations), determinants (cofactor expansion, properties), **eigenvalues and eigenvectors** (characteristic polynomial, diagonalisation), **Singular Value Decomposition (SVD)** (full and reduced forms, Eckart-Young theorem, pseudoinverse), positive-definite matrices (Cholesky), similar matrices, Jordan form, complex matrices (Hermitian, unitary), fast Fourier transform as a change of basis, linear transformations, applications to graphs (Laplacian), applications to differential equations (matrix exponential).
-  * **[Axler — *Linear Algebra Done Right* 4e (2024) · *abstract pass*]**: Vector spaces *axiomatically* (no a-priori reference to ℝⁿ), subspaces, sums and direct sums, linear independence, basis, dimension; **linear maps as the central object** (kernel, image, the fundamental theorem of linear algebra); polynomials over ℂ (the algebraic backbone of eigentheory); eigenvalues, eigenvectors, **invariant subspaces, generalised eigenspaces**; **inner-product spaces** (axioms, Cauchy-Schwarz, triangle inequality, orthonormal bases via Gram-Schmidt, orthogonal complements, orthogonal projection as best approximation); **operators on inner-product spaces** (self-adjoint, normal, **the Spectral Theorem — proven without determinants**, polar decomposition, **SVD via the spectral theorem**); positive operators and isometries; trace and determinant *properly* defined (via characteristic polynomial coefficients, not as the Leibniz formula).
+  * <details><summary><strong>Advanced / later:</strong> Axler abstract-pass topic list</summary>
+
+    **[Axler — *Linear Algebra Done Right* 4e (2024) · *abstract pass*]**: Vector spaces *axiomatically* (no a-priori reference to ℝⁿ), subspaces, sums and direct sums, linear independence, basis, dimension; **linear maps as the central object** (kernel, image, the fundamental theorem of linear algebra); polynomials over ℂ (the algebraic backbone of eigentheory); eigenvalues, eigenvectors, **invariant subspaces, generalised eigenspaces**; **inner-product spaces** (axioms, Cauchy-Schwarz, triangle inequality, orthonormal bases via Gram-Schmidt, orthogonal complements, orthogonal projection as best approximation); **operators on inner-product spaces** (self-adjoint, normal, **the Spectral Theorem — proven without determinants**, polar decomposition, **SVD via the spectral theorem**); positive operators and isometries; trace and determinant *properly* defined (via characteristic polynomial coefficients, not as the Leibniz formula).
+
+    </details>
   * **[3Blue1Brown — Essence of Linear Algebra (16 videos, evergreen)]**: Geometric intuition for determinants as signed-volume scaling, eigenvectors as invariant directions, change of basis as relabelling, **dot product as the dual of a linear map** (the trick that makes attention "queries · keys" feel inevitable).
   * **[IITM BSMA1003]**: Matrix rank via row reduction, solvability of linear systems, null space / column space correspondence, linear maps, basis transformations, symmetric matrices and spectral theorem.
   * **[Harvard CS 1810 prereq (AM 22a / Math 21b)]**: Inner product spaces, orthogonal complement, projection matrices `P = A(AᵀA)⁻¹Aᵀ`, quadratic forms, positive semi-definiteness as condition for convex loss.
@@ -343,12 +500,20 @@ AI coding assistants are the fastest way to learn Python and the fastest way to 
 
 * **2026 Resources:**
   * **Primary Course Link:** [MIT 18.06 OCW SC version (Strang, 2011) — evergreen](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) · [3Blue1Brown EoLA](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
-  * **Abstract / Proof Track:** [_Linear Algebra Done Right_ — Axler, **4th Edition, Springer 2024, FREE PDF + Kindle**](https://linear.axler.net/) — the cleanest abstract treatment ever written; 400 pp.; includes worked solutions.
+  * <details><summary><strong>Advanced / later:</strong> Abstract / Proof Track (Axler)</summary>
+
+    **Abstract / Proof Track:** [_Linear Algebra Done Right_ — Axler, **4th Edition, Springer 2024, FREE PDF + Kindle**](https://linear.axler.net/) — the cleanest abstract treatment ever written; 400 pp.; includes worked solutions.
+
+    </details>
   * **Applications-first Track:** [_Linear Algebra for Data Science, Machine Learning, and Signal Processing_ — Hero/Fessler/Townsend (Cambridge, 2024, hardback)](http://www.cambridge.org/highereducation/isbn/9781009418140) — explicitly cross-references PCA, SVD-of-images, low-rank approximation.
   * **Required Reading (Latest 2026 Editions):**
     * _Introduction to Linear Algebra_ (**6th Edition, 2023**) — Gilbert Strang. Companion to 18.06.
     * _Linear Algebra and Learning from Data_ (**2019; 2025 reprint with errata**) — Strang — specifically written for ML era; covers randomised SVD, NMF, neural-net Jacobians.
-    * ***Linear Algebra Done Right* (Axler, 4e, 2024)** — chapters 1–7 mandatory for proof maturity.
+    * <details><summary><strong>Advanced / later:</strong> Axler reading</summary>
+
+      ***Linear Algebra Done Right* (Axler, 4e, 2024)** — chapters 1–7 mandatory for proof maturity.
+
+      </details>
     * _Mathematics for Machine Learning_ — Deisenroth et al. — Chapters 2, 3, 4.
     * **[*Numerical Linear Algebra* — Trefethen & Bau (SIAM, 1997, 25th-anniversary printing 2022)]** — for any student going into systems / scaling ([M24](6-frontier-production.md#module-24)).
   * **Free interactive notebooks:** [`fastai/numerical-linear-algebra` — Rachel Thomas USF (2019, still gold-standard, all-Jupyter)](https://github.com/fastai/numerical-linear-algebra) — covers SVD, randomised methods, PageRank, compressed sensing in 12 lectures.

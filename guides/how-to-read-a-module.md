@@ -13,6 +13,7 @@ never finish one. That is the mistake this page exists to prevent.
 
 ---
 
+<a id="reading-order"></a>
 ## The anatomy of a module
 
 Modules are long because they are *reference* documents — you read the relevant part, not all of it.
@@ -63,8 +64,8 @@ each module lists alternatives if a default does not suit you.
 
 | Module | Take this one course | Then build |
 | :--- | :--- | :--- |
-| [M0](../curriculum/1-foundations.md#module-0) Maths bridge | [Book of Proof](https://richardhammack.github.io/BookOfProof/) (text) + [Khan Precalculus](https://www.khanacademy.org/math/precalculus) | 200 Hammack exercises |
-| [M1](../curriculum/1-foundations.md#module-1) Python | [Harvard CS50P](https://cs50.harvard.edu/python/) | Weather CLI |
+| [M0](../curriculum/1-foundations.md#module-0) Maths bridge | [Book of Proof](https://richardhammack.github.io/BookOfProof/) (text) + [Khan Precalculus](https://www.khanacademy.org/math/precalculus) | Book of Proof ch. 1–4 at 15 min/day (about 200 exercises is a later target, not a gate) |
+| <a id="module-default-1"></a>[M1](../curriculum/1-foundations.md#module-1) Python | New to Python: [Week 0](week-0.md#week-0) (Scrimba), then [Harvard CS50P](https://cs50.harvard.edu/python/) | [Starter project](../curriculum/1-foundations.md#m1-starter-project), then the [weather CLI capstone](../curriculum/1-foundations.md#m1-capstone) |
 | [M2](../curriculum/1-foundations.md#module-2) Calculus | [MIT 18.01 / MITx 18.01.1x](https://mitxonline.mit.edu/courses/course-v1:MITxT+18.01.1x/) | Gradient-descent lab |
 | [M3](../curriculum/1-foundations.md#module-3) Linear algebra | [MIT 18.06 SC](https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/) | 5 linear-algebra minis |
 | [M4](../curriculum/1-foundations.md#module-4) Algorithms | [MIT 6.006](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/) | Meal planner |
@@ -137,6 +138,26 @@ read of it:
 
 Total resources actually consumed: **one course, three book chapters, one project.** Everything else in
 the module was reference material for a future version of you.
+
+---
+
+<a id="stuck-or-unmotivated"></a>
+## Stuck or unmotivated? Do this for 15 minutes
+
+Pick the row that sounds like you. Do only the action, then stop if you want. Fifteen minutes counts.
+
+| What it feels like | Your 15-minute action |
+| :--- | :--- |
+| **"I can't make myself start."** | Open [Week 0](week-0.md#week-0-plan) at the day you're on. Do only the first challenge, then decide whether to continue. |
+| **"I'm too tired today."** | Do the [bad-day version](week-0.md#week-0-bad-day): retype one example from memory. Then stop. |
+| **"I missed several days."** | Don't catch up. Use the [resume steps](progress-tracker.md#resume) and do the next unfinished row. |
+| **"This error makes no sense."** | Paste your code into [Python Tutor](https://pythontutor.com/python-compiler.html) and step through it until a variable surprises you. |
+| **"I've been stuck on one problem for ages."** | Write down what you expected and what happened. Post it in the [Scrimba Discord](https://scrimba.com/discord) or CS50's community, or try a different problem and come back. |
+| **"I watched the lecture but can't code it."** | Close the video. Rebuild its first example from memory. Peek once if needed. |
+| **"It's too easy and I'm bored."** | Skip ahead to this week's project, or try one [Exercism](https://exercism.org/tracks/python) exercise. |
+| **"It's too hard."** | Go back one lesson, or try the same topic in [futurecoder](https://futurecoder.io/). Needing a second explanation is normal. |
+| **"Everyone else seems ahead of me."** | Read your own daily log from Day 1. Write one thing you can do now that you couldn't then. |
+| **"I don't see the point."** | Spend 15 minutes on a chapter of [Automate the Boring Stuff](https://automatetheboringstuff.com/) that sounds fun. |
 
 ---
 

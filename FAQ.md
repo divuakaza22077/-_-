@@ -91,7 +91,7 @@ interviews. Nobody reads it linearly. See [the anatomy of a module](guides/how-t
 
 ### Where do I actually start?
 
-[START-HERE.md](START-HERE.md). It gives you a four-day plan and one decision to make.
+New to Python: [Week 0](guides/week-0.md#week-0), seven short days in your browser. Then the [first 30 days](guides/first-30-days.md#first-30-days). Everyone else: [START-HERE.md](START-HERE.md#other-entry-points).
 
 ### There are hundreds of links. Which resource do I pick?
 
@@ -153,9 +153,10 @@ These are not in conflict — they measure different things. Sources and reasoni
 ### Is it beginner-friendly?
 
 The *sequence* is, and prerequisites are stated everywhere. But the primary resources are real
-university courses, which are demanding. If you are new to programming, start with the
-[Microsoft companion curricula](guides/companion-curricula.md), which supply the guided lessons,
-quizzes, and solutions that university courses assume you don't need.
+university courses, which are demanding. If you are new to programming, start with
+[Week 0](guides/week-0.md#week-0) and the [first 30 days](guides/first-30-days.md#first-30-days):
+one beginner course, small daily wins, and no gates. The
+[Microsoft companion curricula](guides/companion-curricula.md) are optional extra practice later.
 
 ### I'm stuck / demoralised. Is that normal?
 
@@ -163,6 +164,19 @@ Yes, and it is usually a prerequisite gap rather than lack of ability. Check the
 Prerequisites** line and go back one module. The other common cause is *tutorial hell* — consuming
 instruction while producing nothing; the fix is the five-step protocol in
 [Module 1](curriculum/1-foundations.md#module-1).
+
+---
+
+<a id="known-limitations"></a>
+## Known limitations
+
+Honest notes on what is still rough. None of them block a beginner from starting [Week 0](guides/week-0.md#week-0).
+
+- **The old 15-question maths diagnostic was never written.** It has been replaced by a free, non-gating [maths placement](curriculum/1-foundations.md#math-diagnostic). The original table is kept, collapsed, for reference; two of its links are now dead.
+- **Links move.** Course providers change URLs and editions (Scrimba and the Helsinki MOOC both did in 2026). Every link changed in a pass is logged in [`audit/VERIFICATION.md`](audit/VERIFICATION.md) with its HTTP status and date.
+- **"Free" can change.** Some platforms are free to audit but charge for certificates, and a few books are paid. Paid items are labelled. Never buy something just to resolve a confusing instruction; report it instead.
+- **Advanced modules are dense.** Later modules keep university-level depth, much of it collapsed under "Advanced / later". Use the [Pick-One table](guides/how-to-read-a-module.md#pick-one) and skip what you don't need yet.
+- **Found something contradictory?** [Open a "Something was confusing" issue](https://github.com/akazadivu-design/data-sci/issues/new/choose) upstream. If you couldn't work out what to do, that is a defect in the roadmap, not your mistake.
 
 ---
 
@@ -180,7 +194,7 @@ These marks appear next to links and claims throughout the repository.
 | ⏭ | Deliberately deferred to a later release |
 | 📦 | A mandatory module project |
 | ⚡ | An intuition-first alternative route for the practitioner track |
-| 🩺 | The maths diagnostic |
+| 🩺 | The maths placement (optional, never a gate) |
 | 🟩 🟨 🟧 🟦 🟪 🔴 | The six curriculum strata, in order |
 
 ---

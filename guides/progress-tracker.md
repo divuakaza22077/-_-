@@ -5,9 +5,54 @@
 <a id="progress-tracker"></a>
 # ✅ Progress Tracker
 
+**In Week 0?** You don't need this page yet. Scrimba saves your place. Come back in Week 1.
+
+<a id="starter-tracker"></a>
+## 🌱 Starter tracker (first 30 days)
+
+Copy these 12 boxes into a notes app, a text file or your `python-journey` README. Tick one when it's true.
+
+- [ ] **Week 0:** finished Scrimba *Learn Python* (all three projects).
+- [ ] **Week 0:** rebuilt PayUp from memory and showed it to someone.
+- [ ] **Week 1:** watched CS50P Lecture 0 and submitted Problem Set 0.
+- [ ] **Week 1:** `python-journey` is public, with my Scrimba projects and a README.
+- [ ] **Week 2:** watched CS50P Lecture 1 and submitted Problem Set 1.
+- [ ] **Week 2:** took the Khan Precalculus course challenge once (placement only).
+- [ ] **Week 2:** watched 3Blue1Brown *Essence of Linear Algebra* episodes 1–3.
+- [ ] **Week 3:** watched CS50P Lecture 2 and submitted Problem Set 2.
+- [ ] **Week 3:** solved three Exercism Python exercises.
+- [ ] **Week 4:** watched CS50P Lecture 3 and submitted Problem Set 3.
+- [ ] **Week 4:** solved five Exercism exercises in total.
+- [ ] **Week 4:** my first original mini project is in `python-journey`, and I shared it.
+
+Details for each week are in [Week 0](week-0.md#week-0) and the [first 30 days](first-30-days.md#first-30-days).
+
+<a id="daily-log"></a>
+### Daily log (one line)
+
+> Today I built ___. I got stuck on ___. Next session I will ___.
+
+<a id="resume"></a>
+## ↩️ Resume after a break
+
+1. **Find your last line** in your daily log, or your last ticked box above.
+2. **Reopen that exact lesson or exercise.** Skip any re-tour of the roadmap.
+3. **Warm up for 10 minutes:** redo one small thing you finished last time, from memory.
+4. **Do one 15-minute task.** That is a full restart. More is a bonus.
+5. **Write today's one-line log.**
+
+Been away for weeks? That's normal. If you're in Weeks 0–4, restart the current week's row. Later on, bookmark the module heading you are working on.
+
+---
+
+<a id="full-tracker"></a>
+<details>
+<summary><strong>Full tracker (after your first 30 days):</strong> all modules, projects, career operations and the capstone</summary>
+
 > Fork this repo, copy this section, and replace `[ ]` with `[x]` as you complete each sub-module.
 
 ### 🧭 Route selection (do this first)
+- [ ] Finished [Week 0](week-0.md#week-0) and the [first 30 days](first-30-days.md#first-30-days)
 - [ ] Read [Start here](../README.md#start-here) and picked a route: **full spine** or [**🚀 Practitioner fast lane**](practitioner-track.md#practitioner-track)
 - [ ] Chose a target role from [Choose your track](../README.md#choose-your-track) and wrote down its minimum module set
 - [ ] Read the [module-project enforcement rule](../curriculum/README.md#module-projects) and accepted it
@@ -15,9 +60,9 @@
 
 - [ ] (Undergraduates) Opened the [Four-Year Plan](four-year-plan.md#semester-plan) and copied the current semester's exit check here
 
-### 🩺 Math-Foundations Diagnostic
-- [ ] Took the **15-question diagnostic** and recorded my score per strand
-- [ ] Decided whether to do **Module 0** (mandatory if any strand < 70%)
+### 🩺 Maths placement (optional, never a gate)
+- [ ] Took the [Khan Precalculus course challenge](../curriculum/1-foundations.md#math-diagnostic) once and picked resources from the result
+- [ ] Doing *Book of Proof* ch. 1–4 at 15 min/day alongside college maths (full **Module 0** is recommended, not required)
 
 ### 🟩 Foundation Stratum
 - [ ] **Module 0a**: Pre-Calculus & Trigonometry (Khan Academy / MIT 18.01A)
@@ -59,7 +104,7 @@
 - [ ] **Module 25**: Product DS · Communication · Decision Intelligence (Kozyrkov + Kohavi Trustworthy Experiments + Storytelling with Data + CMU MSPPM-DA / UMich MADS)
 
 ### 📦 Module projects (one public repo each — see [the rule](../curriculum/README.md#module-projects))
-- [ ] **M1** Weather CLI · **M2** gradient-descent lab · **M3** five linear-algebra mini-projects · **M4** constraint meal planner · **M5** Monte Carlo lab
+- [ ] **M1** starter project + Weather CLI capstone · **M2** gradient-descent lab · **M3** five linear-algebra mini-projects · **M4** constraint meal planner · **M5** Monte Carlo lab
 - [ ] **M6** inference toolkit · **M6½** causal mini-projects · **M7** end-to-end EDA · **M8a** Reddit scraper → warehouse · **M8b** streaming mini-projects
 - [ ] **M9** regression from scratch · **M10** churn dashboard + `LogisticRegressionScratch` · **M11** K-Means from scratch · **M12** decision tree from scratch + boosting bake-off
 - [ ] **M13** Bayesian A/B · **M14** forecasting dashboard with backtest · **M15** backprop from scratch + CNN · **M16** HF sentiment analyser + transformer from scratch · **M17** RL agent over 5 seeds
@@ -76,6 +121,8 @@
 
 ### 🏆 Capstone Stratum
 - [ ] **Module 26**: Capstone Project — Choose **1 of 3 tracks**: Research / Systems / Applied (arXiv preprint + HF release + MCP‑compliant tool/agent OR production system with SLOs OR stakeholder-sponsored applied project with causal evaluation)
+
+</details>
 
 ---
 
