@@ -14,7 +14,7 @@
 
 | Your next step | Open this |
 |---|---|
-| **I'm new. Help me start.** | [Start Here](START-HERE.md#first-step): choose an entry point and do one study session. |
+| **I'm new. Help me start.** | [Start Here](START-HERE.md#first-step): one instruction, *open Week 0*, and you are coding in your browser within minutes. |
 | **I know what I want to learn.** | [Curriculum index](curriculum/README.md#all-modules): jump directly to any of the 27 modules. |
 | **I'm returning to my studies.** | [Resume checklist](guides/progress-tracker.md#resume): reopen your module and find the next unfinished task. |
 | **I'm a CS undergrad with 4 years to a top-tier new-grad offer.** | [Four-Year Plan](guides/four-year-plan.md#four-year-plan): 8 semesters + 3 summers, module order, hiring-grade projects, DSA ladder, and a funded-opportunity calendar. |
@@ -29,7 +29,7 @@ Each module brings together prerequisites, learning resources, and practical wor
 
 ## How to use this roadmap
 
-1. **Choose a starting module.** Use [Start Here](START-HERE.md#first-step) if unsure, or the [track chooser](#choose-your-track) if you already have a goal.
+1. **Choose a starting module.** New to Python? Open [Week 0](guides/week-0.md#week-0). Otherwise use [Start Here](START-HERE.md#first-step), or the [track chooser](#choose-your-track) if you already have a goal.
 2. **Check prerequisites and the deliverable.** The [module guide](guides/how-to-read-a-module.md#reading-order) shows what to read first.
 3. **Study, practise, and build.** Use the [resource defaults](guides/how-to-read-a-module.md#pick-one) without treating alternatives as extra compulsory courses. Keep explicit required work in view.
 4. **Record your next task.** Bookmark the module heading in your [progress tracker](guides/progress-tracker.md#resume). Check its definition of done and the [project policy](curriculum/README.md#module-projects) before moving on.
@@ -37,13 +37,13 @@ Each module brings together prerequisites, learning resources, and practical wor
 <a id="start-here"></a>
 ## Entry points by experience
 
-- **New to Python:** begin with [M1: Programming Foundations](curriculum/1-foundations.md#module-1). [Start Here](START-HERE.md#first-session) gives a first-session task.
+- **New to Python:** open [Week 0](guides/week-0.md#week-0), then the [first 30 days](guides/first-30-days.md#first-30-days). Together they are the gentle start of [M1: Programming Foundations](curriculum/1-foundations.md#module-1).
 - **Already programming:** choose a target below, then check that module's prerequisites. Python fluency alone does not establish calculus, probability, or ML readiness.
 - **Returning after a break:** use [Resume](guides/progress-tracker.md#resume), not another full tour of the repository.
 
 ## Choose your track
 
-**Not sure yet? Start with M1; you can choose a destination later.** These are the repository's existing role-focused scope summaries, not exhaustive prerequisite lists or guaranteed study schedules. Follow each module's prerequisites; omitted modules are not automatically waived.
+**Not sure yet? Start with [Week 0](guides/week-0.md#week-0); you can choose a destination later.** These are the repository's existing role-focused scope summaries, not exhaustive prerequisite lists or guaranteed study schedules. Follow each module's prerequisites; omitted modules are not automatically waived.
 
 | Your goal | Where to explore |
 |---|---|

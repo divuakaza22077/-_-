@@ -91,7 +91,7 @@ interviews. Nobody reads it linearly. See [the anatomy of a module](guides/how-t
 
 ### Where do I actually start?
 
-[START-HERE.md](START-HERE.md). It gives you a four-day plan and one decision to make.
+New to Python: [Week 0](guides/week-0.md#week-0), seven short days in your browser. Then the [first 30 days](guides/first-30-days.md#first-30-days). Everyone else: [START-HERE.md](START-HERE.md#other-entry-points).
 
 ### There are hundreds of links. Which resource do I pick?
 
@@ -153,9 +153,10 @@ These are not in conflict — they measure different things. Sources and reasoni
 ### Is it beginner-friendly?
 
 The *sequence* is, and prerequisites are stated everywhere. But the primary resources are real
-university courses, which are demanding. If you are new to programming, start with the
-[Microsoft companion curricula](guides/companion-curricula.md), which supply the guided lessons,
-quizzes, and solutions that university courses assume you don't need.
+university courses, which are demanding. If you are new to programming, start with
+[Week 0](guides/week-0.md#week-0) and the [first 30 days](guides/first-30-days.md#first-30-days):
+one beginner course, small daily wins, and no gates. The
+[Microsoft companion curricula](guides/companion-curricula.md) are optional extra practice later.
 
 ### I'm stuck / demoralised. Is that normal?
 
